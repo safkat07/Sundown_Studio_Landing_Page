@@ -1,6 +1,7 @@
 import video from '../../assets/home_video.mp4'
 import './banner.css'
 const Banner = () => {
+
     return (
         <div>
             <div className='flex mt-28 border-b-2 pb-[2.5vw] border-orange-500 min-h-[65vh] w-full  items-end justify-between'>
