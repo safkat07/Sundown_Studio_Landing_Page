@@ -1,4 +1,5 @@
-
+import video from '../../assets/home_video.mp4'
+import './banner.css'
 const Banner = () => {
     return (
         <div>
@@ -17,8 +18,18 @@ const Banner = () => {
                     </h1>
                 </div>
             </div>
-            <div className="my-16 ">
-                <video  className="rounded-2xl" src="https://player.vimeo.com/progressive_redirect/playback/915350257/rendition/1080p/file.mp4?loc=external&signature=768f26c5396775e76c340cb808a897a724e78acb8231106dd94af9d732695176"></video>
+
+
+            {/* animation part */}
+            <div id='heroShape'>
+                <div id="hero1"></div>
+                <div id="hero2"></div>
+                <div id="hero3"></div>
+            </div>
+
+
+            <div className="mt-[3vw] relative ">
+                <video autoPlay loop muted className="rounded-2xl" src={video}></video>
             </div>
         </div>
     );
