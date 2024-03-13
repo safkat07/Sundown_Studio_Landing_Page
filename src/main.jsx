@@ -5,6 +5,8 @@ import App from '../App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <div className='p-10'>
+      <App />
+    </div>
   </React.StrictMode>,
 )

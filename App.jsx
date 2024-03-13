@@ -3,7 +3,7 @@ import Banner from './src/Components/Banner/Banner';
 
 const App = () => {
     return (
-        <div>
+        <div className=''>
             <Navbar></Navbar>
             <Banner></Banner>
         </div>
