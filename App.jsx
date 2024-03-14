@@ -6,6 +6,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 import MyMarquee from './src/Components/Marquee/MyMarquee';
 import GroupOfDesign from './src/Components/GroupOfDesign/GroupOfDesign';
 import FeaturedProject from './src/Components/FeaturedProject/FeaturedProject';
+import DesignProject from './src/Components/DesignProject/DesignProject';
 
 
 
@@ -66,6 +67,7 @@ const App = () => {
                 <MyMarquee></MyMarquee>
                 <GroupOfDesign></GroupOfDesign>
                 <FeaturedProject></FeaturedProject>
+                <DesignProject></DesignProject>
             </div>
         </>
     );

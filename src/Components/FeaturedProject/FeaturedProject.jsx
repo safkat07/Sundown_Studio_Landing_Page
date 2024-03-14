@@ -12,33 +12,62 @@ const FeaturedProject = () => {
 
             {/* List div */}
             <div className=''>
-                <div id='listCon' >
+                <div id='listCon' className='flex justify-between'  >
                     <div className="overlay"></div>
                     <h2 className='text-[3vw] relative z-10'>SOHO NYC</h2>
+                    <div className='flex z-10 items-end flex-col'>
+                        <p className='text-left'>NIKE</p>
+                        <p className='opacity-0'>Environment</p>
+                    </div>
                 </div>
-                <div id='listCon' >
-                    <div className="overlay"></div>
+                <div id='listCon' className='flex justify-between'>
+                    <div className="overlay" ></div>
                     <h2 className='text-[3vw] relative z-10'>Air Force 12021</h2>
+                    <div className='flex z-10 items-end flex-col'>
+                        <p className='text-left'>AFTERPARTY</p>
+                        <p className='opacity-0'>Experiental</p>
+                    </div>
                 </div>
-                <div id='listCon' >
+                <div id='listCon' className='flex justify-between' >
                     <div className="overlay"></div>
                     <h2 className='text-[3vw] relative z-10'>SOHO 2023</h2>
+                    <div className='flex z-10 items-end flex-col'>
+                        <p className='text-left'>NIKE</p>
+                        <p className='opacity-0'>Experiental</p>
+                    </div>
+
                 </div>
-                <div id='listCon' >
+                <div id='listCon' className='flex justify-between' >
                     <div className="overlay"></div>
                     <h2 className='text-[3vw] relative z-10'>50th Anniversary</h2>
+                    <div className='flex z-10 items-end flex-col'>
+                        <p className='text-left'>NIKE</p>
+                        <p className='opacity-0'>Environment</p>
+                    </div>
                 </div>
-                <div id='listCon' >
+                <div id='listCon' className='flex justify-between' >
                     <div className="overlay"></div>
                     <h2 className='text-[3vw] relative z-10'>Makers Studio HOI</h2>
+                    <div className='flex z-10 items-end flex-col'>
+                        <p className='text-left'>CONVERSE</p>
+                        <p className='opacity-0'>Environment</p>
+                    </div>
                 </div>
-                <div id='listCon' >
+                <div id='listCon' className='flex justify-between' >
                     <div className="overlay"></div>
                     <h2 className='text-[3vw] relative z-10'>NYFW Popup</h2>
+                    <div className='flex z-10 items-end flex-col'>
+                        <p className='text-left'>NIKE</p>
+                        <p className='opacity-0'>Environment</p>
+                    </div>
                 </div>
-                <div id='listCon' >
+                <div id='listCon' className='flex justify-between' >
                     <div className="overlay"></div>
                     <h2 className='text-[3vw] relative z-10'>Play New Kidvision</h2>
+                    <div className='flex z-10 items-end flex-col'>
+                        <p className='text-left'>ARCTERYX</p>
+                        <p className='opacity-0'>Environment</p>
+                    </div>
                 </div>
             </div>
 
