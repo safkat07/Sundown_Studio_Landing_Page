@@ -1,0 +1,28 @@
+#listCon {
+    height: 125px;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    transition: all ease 0.4s ;
+}
+
+#listCon:hover .overlay {
+    top: 0;
+}
