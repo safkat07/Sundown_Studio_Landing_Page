@@ -1,0 +1,52 @@
+#animDiv1 {
+    height: 30vw;
+    width: 40vw;
+    background-color: orangered;
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(30px);
+    animation: animation 3s ease-in-out infinite alternate;
+}
+
+#animDiv2 {
+    height: 25vw;
+    width: 25vw;
+    background: linear-gradient(orangered, rgba(255, 166, 0, 0.952));
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(30px);
+    animation: animation2 3s ease-in-out infinite alternate;
+
+
+}
+
+#heroShape1 {
+    position: absolute;
+    width: 46vw;
+    height: 36vw;
+    left: 15vw;
+    top: 280vh;
+    z-index: -999;
+}
+
+
+
+@keyframes animation1 {
+    from {
+        transform: translate(-80%, -50%);
+    }
+
+    to {
+        transform: translate(0%, 10%);
+    }
+}
+
+@keyframes animation2 {
+    from {
+        transform: translate(-10%, -5%);
+    }
+
+    to {
+        transform: translate(0%, 10%);
+    }
+}

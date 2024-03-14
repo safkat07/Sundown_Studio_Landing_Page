@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from 'react';
 import useScroll from './src/Hooks/UseScroll';
 import LocomotiveScroll from 'locomotive-scroll';
 import MyMarquee from './src/Components/Marquee/MyMarquee';
+import GroupOfDesign from './src/Components/GroupOfDesign/GroupOfDesign';
+import FeaturedProject from './src/Components/FeaturedProject/FeaturedProject';
 
 
 
@@ -62,6 +64,8 @@ const App = () => {
                 <Navbar></Navbar>
                 <Banner></Banner>
                 <MyMarquee></MyMarquee>
+                <GroupOfDesign></GroupOfDesign>
+                <FeaturedProject></FeaturedProject>
             </div>
         </>
     );
