@@ -3,7 +3,7 @@ import './banner.css'
 const Banner = () => {
 
     return (
-        <div>
+        <div data-scroll-container className='p-10'>
             <div className='flex mt-28 border-b-2 pb-[2.5vw] border-orange-500 min-h-[65vh] w-full  items-end justify-between'>
                 <div >
                     <h3 className="w-[25vw] text-[1.8vw] leading-[2vw]">

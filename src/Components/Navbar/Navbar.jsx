@@ -1,7 +1,7 @@
 import './navbar.css'
 const Navbar = () => {
     return (
-        <div className="">
+        <div data-scroll-container className="p-10">
             <div className='flex w-full items-center justify-between'>
                 <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15c2_Sundown%20logo.svg" alt="" />
                 <nav>

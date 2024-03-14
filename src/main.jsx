@@ -6,7 +6,7 @@ import App from '../App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='p-10'>
+    <div className=''>
       <App />
     </div>
   </React.StrictMode>,
