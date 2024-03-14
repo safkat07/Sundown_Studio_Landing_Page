@@ -64,10 +64,12 @@
 #fixedImg {
     height: 25vw;
     width: 23vw;
-    background-color: greenyellow;
     z-index: 99;
+    background-position: center;
+    background-size: cover;
     top: 27%;
     left: 50%;
     position: fixed;
+    border-radius: 1vw;
 
 }
