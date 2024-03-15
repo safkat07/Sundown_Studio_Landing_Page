@@ -4,6 +4,12 @@
     z-index: 9;
     background-color: black;
     color: white;
-    font-size: 4vw;
+    font-size: 4.5vw;
 
+}
+
+#dCon img {
+    width: 100%;
+    height: 60vw;
+    
 }
