@@ -11,7 +11,7 @@ const FeaturedProject = () => {
     const handleMouseEnter = (imageUrl) => {
         setIsEntered(true);
         setBgImage(imageUrl);
-        console.log("bgImage", bgImage);
+        // console.log("bgImage", bgImage);
     };
 
     const handleMouseLeave = () => {
@@ -25,7 +25,7 @@ const FeaturedProject = () => {
             {/*  bg-[url('https://www.insplosion.com/blog/wp-content/uploads/2020/04/street-style-in-contemporary-interior-design-insplosion-9-scaled.jpg')] */}
             {/* bg-[url(${bgImage}')] */}
             {/* fixed image div */}
-            <div id='fixedImg'  style={{ backgroundImage: `url(${bgImage})` }}  className={isEntered ? `block fixed  ` : " hidden  fixed"}>
+            <div id='fixedImg' style={{ backgroundImage: `url(${bgImage})` }} className={isEntered ? `block fixed  ` : " hidden  fixed"}>
 
 
             </div>
@@ -44,7 +44,7 @@ const FeaturedProject = () => {
                 className=''>
                 <div id='listCon'
 
-                    onMouseEnter={() => handleMouseEnter('https://www.insplosion.com/blog/wp-content/uploads/2020/04/street-style-in-contemporary-interior-design-insplosion-9-scaled.jpg')} onMouseLeave={handleMouseLeave}
+                    onMouseEnter={() => handleMouseEnter('https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b163b_Copy-of-IMG_1180.webp')} onMouseLeave={handleMouseLeave}
 
                     className='flex justify-between'  >
                     <div className="overlay"></div>
@@ -54,7 +54,7 @@ const FeaturedProject = () => {
                         <p className='opacity-0'>Environment</p>
                     </div>
                 </div>
-                <div id='listCon' onMouseEnter={() => handleMouseEnter('https://pressbooks.cuny.edu/app/uploads/sites/93/2022/08/thanuj-mathew-8CSTVoDMEXg-unsplash-2048x1365.jpg')} onMouseLeave={handleMouseLeave} className='flex justify-between'>
+                <div id='listCon' onMouseEnter={() => handleMouseEnter('https://uploads-ssl.webflow.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b16c5_Copy%20of%20Nike_Soho_AMD21_0781_LORES.webp')} onMouseLeave={handleMouseLeave} className='flex justify-between'>
                     <div className="overlay"></div>
                     <h2 className='text-[3vw] relative z-10'>Air Force 12021</h2>
                     <div className='flex z-10 items-end flex-col'>
@@ -64,7 +64,7 @@ const FeaturedProject = () => {
                 </div>
                 <div id='listCon'
 
-                    onMouseEnter={() => handleMouseEnter('https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpg')} onMouseLeave={handleMouseLeave}
+                    onMouseEnter={() => handleMouseEnter('https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1644_Copy%20of%20DSC04084.webp')} onMouseLeave={handleMouseLeave}
                     className='flex justify-between' >
                     <div className="overlay"></div>
                     <h2 className='text-[3vw] relative z-10'>SOHO 2023</h2>
@@ -74,7 +74,10 @@ const FeaturedProject = () => {
                     </div>
 
                 </div>
-                <div id='listCon' className='flex justify-between' >
+                <div id='listCon'
+
+                    onMouseEnter={() => handleMouseEnter('https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b16f4_Copy%20of%20Nike_Soho_50th_SU22_FL1_6176.webp')} onMouseLeave={handleMouseLeave}
+                    className='flex justify-between' >
                     <div className="overlay"></div>
                     <h2 className='text-[3vw] relative z-10'>50th Anniversary</h2>
                     <div className='flex z-10 items-end flex-col'>
@@ -82,7 +85,10 @@ const FeaturedProject = () => {
                         <p className='opacity-0'>Environment</p>
                     </div>
                 </div>
-                <div id='listCon' className='flex justify-between' >
+                <div id='listCon'
+                    onMouseEnter={() => handleMouseEnter('https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1736_Nike_HOI_50th_SU22_FL1_5395.webp')} onMouseLeave={handleMouseLeave}
+
+                    className='flex justify-between' >
                     <div className="overlay"></div>
                     <h2 className='text-[3vw] relative z-10'>Makers Studio HOI</h2>
                     <div className='flex z-10 items-end flex-col'>
@@ -90,7 +96,9 @@ const FeaturedProject = () => {
                         <p className='opacity-0'>Environment</p>
                     </div>
                 </div>
-                <div id='listCon' className='flex justify-between' >
+                <div id='listCon'
+                    onMouseEnter={() => handleMouseEnter('https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1721_005A0462.webp')} onMouseLeave={handleMouseLeave}
+                    className='flex justify-between' >
                     <div className="overlay"></div>
                     <h2 className='text-[3vw] relative z-10'>NYFW Popup</h2>
                     <div className='flex z-10 items-end flex-col'>
@@ -98,7 +106,10 @@ const FeaturedProject = () => {
                         <p className='opacity-0'>Environment</p>
                     </div>
                 </div>
-                <div id='listCon' className='flex justify-between' >
+                <div id='listCon'
+
+                    onMouseEnter={() => handleMouseEnter('https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b16a0_Nike_Soho_Play-New-Kids_10-27-21_2039.webp')} onMouseLeave={handleMouseLeave}
+                    className='flex justify-between' >
                     <div className="overlay"></div>
                     <h2 className='text-[3vw] relative z-10'>Play New Kidvision</h2>
                     <div className='flex z-10 items-end flex-col'>
