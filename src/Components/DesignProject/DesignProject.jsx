@@ -57,7 +57,7 @@ const DesignProject = () => {
 
                         </p>)
                     }
-                    <p className='text-[1vw] mt-4 text-white leading-normal w-2/3'>{ListDesc}</p>
+                    <p className='text-[1vw] mt-4 cursor-text text-white leading-normal w-2/3'>{ListDesc}</p>
 
                 </div>
                 <div className='w-1/2'>

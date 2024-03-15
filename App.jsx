@@ -7,6 +7,9 @@ import MyMarquee from './src/Components/Marquee/MyMarquee';
 import GroupOfDesign from './src/Components/GroupOfDesign/GroupOfDesign';
 import FeaturedProject from './src/Components/FeaturedProject/FeaturedProject';
 import DesignProject from './src/Components/DesignProject/DesignProject';
+import WhoWeWork from './src/Components/WhoWeWork/WhoWeWork';
+import CustomCursor from 'custom-cursor-react';
+import './src/CSS/cursor.css'
 
 
 
@@ -68,6 +71,7 @@ const App = () => {
                 <GroupOfDesign></GroupOfDesign>
                 <FeaturedProject></FeaturedProject>
                 <DesignProject></DesignProject>
+                <WhoWeWork></WhoWeWork>
             </div>
         </>
     );

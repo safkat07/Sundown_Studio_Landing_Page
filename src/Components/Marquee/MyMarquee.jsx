@@ -8,13 +8,13 @@ const MyMarquee = () => {
             >
                 <div className=" flex  space-x-10 items-center justify-center">
                     <h1 className="text-[8vw] pl-10">EXPERIENCES</h1>
-                    <div className="h-20  w-20 rounded-full bg-[#FE330A]">
+                    <div className="h-[4vw]  w-[4vw] rounded-full bg-[#FE330A]">
                     </div>
                     <h1 className="text-[8vw]">CONTENT</h1>
-                    <div className="h-20  w-20 rounded-full bg-[#FE330A]">
+                    <div className="h-[4vw]  w-[4vw] rounded-full bg-[#FE330A]">
                     </div>
                     <h1 className="text-[8vw]">ENVIRONMENTS</h1>
-                    <div className="h-20  w-20 rounded-full bg-[#FE330A]">
+                    <div className="h-[4vw]  w-[4vw] rounded-full bg-[#FE330A]">
                     </div>
                 </div>
 
